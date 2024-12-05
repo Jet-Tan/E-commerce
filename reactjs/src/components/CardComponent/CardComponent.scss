@@ -1,0 +1,34 @@
+.card-container {
+  .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-17seli4 {
+    width: 170px !important;
+  }
+  .card-content {
+    margin-top: -10px;
+    margin-left: -15px;
+    .badge {
+      background-color: rgb(242 247 255);
+      color: rgb(1 87 224);
+      border-radius: 10px;
+      width: 100px;
+      span {
+        margin: 0 2px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      .title {
+        font-size: 14px;
+      }
+      .star {
+        color: #ffc400;
+      }
+    }
+    .price {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

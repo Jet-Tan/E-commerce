@@ -1,0 +1,29 @@
+.action-user {
+  display: flex;
+  justify-content: space-evenly;
+  .delete-user {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .edit-user {
+    color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.admin-user-container {
+  width: 1250px;
+  .admin-user-btn {
+    height: 150px;
+    width: 150px;
+    border-style: dashed;
+    font-size: 40px;
+  }
+  .admin-user-table {
+    margin-top: 20px;
+  }
+}
+.ant-form-item-control-input-content {
+  display: flex;
+}

@@ -1,0 +1,40 @@
+.type-container {
+  background: rgb(234, 237, 237);
+  height: calc(85vh - 40px);
+}
+
+.type-container .ant-row.css-dev-only-do-not-override-17seli4 {
+  margin: unset !important;
+}
+
+.type-card-content {
+  display: flex;
+  gap: 12px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.type-pagination {
+  display: flex;
+  height: 25vh;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: end;
+}
+
+@media screen and (max-width: 1200px) {
+  .type-card-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .type-container {
+    height: auto; /* Change height to auto */
+    padding: 10px; /* Optionally adjust padding as needed */
+  }
+}

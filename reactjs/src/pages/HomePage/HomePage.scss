@@ -1,0 +1,57 @@
+.home-page-container {
+  background: rgb(234, 237, 237);
+
+  .ant-row.css-dev-only-do-not-override-17seli4 {
+    margin: unset !important;
+  }
+
+  .card {
+    display: flex;
+    gap: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    max-width: 1130px;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .extra-btn {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background: white;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 240px;
+      border-radius: 10px;
+      height: 38px;
+      color: rgb(11, 116, 229);
+      border: 1px solid rgb(11, 116, 229);
+      font-weight: 600;
+      cursor: pointer;
+      &:hover {
+        background: rgb(11, 116, 229);
+        color: white;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card {
+      width: 100%;
+      max-width: 1130px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .card {
+      width: 1130px;
+    }
+  }
+}

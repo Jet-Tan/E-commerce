@@ -1,0 +1,54 @@
+.profile-container {
+  margin: 0 100px;
+
+  @media (max-width: 1200px) {
+    margin: 0 50px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 20px;
+  }
+
+  @media (max-width: 576px) {
+    margin: 0 10px;
+  }
+
+  .profile-content {
+    height: 320px;
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    .profile-child {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      flex-wrap: wrap; // Added to handle wrapping on smaller screens
+
+      label {
+        width: 70px;
+        text-align: left;
+
+        @media (max-width: 576px) {
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      Input {
+        width: 300px;
+
+        @media (max-width: 576px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

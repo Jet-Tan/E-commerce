@@ -1,0 +1,29 @@
+.action-product {
+  display: flex;
+  justify-content: space-evenly;
+  .delete-product {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .edit-product {
+    color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.admin-product-container {
+  width: 1250px;
+  .admin-product-btn {
+    height: 150px;
+    width: 150px;
+    border-style: dashed;
+    font-size: 40px;
+  }
+  .admin-product-table {
+    margin-top: 20px;
+  }
+}
+.ant-form-item-control-input-content {
+  display: flex;
+}
